@@ -13,11 +13,11 @@
 	<div id="header">
 		<img src="pic/logo.png" alt="logo">
 		<ul class="nav nav-tabs main-menu">
-			<li><a href="#">在建工程</a></li>
-			<li><a href="#">自有设备</a></li>
-			<li><a href="#">企业活动</a></li>
-			<li><a href="#">企业历史</a></li>
-			<li><a href="#">注册信息</a></li>
+			<li><a data-scroll href="#onbuilding">在建工程</a></li>
+			<li><a data-scroll href="#selfDevice">自有设备</a></li>
+			<li><a data-scroll href="#activity">企业活动</a></li>
+			<li><a data-scroll href="#history">企业历史</a></li>
+			<li><a data-scroll href="#registerInfo">注册信息</a></li>
 		</ul>
 		<span>众帮机械工程</span>
 	</div>
@@ -57,22 +57,30 @@
 				</div>
 
 				<!-- 轮播（Carousel）导航 -->
-
 				<a class="carousel-control left" href="#myCarousel" 
 				data-slide="prev">&lsaquo;</a>
 				<a class="carousel-control right" href="#myCarousel" 
 				data-slide="next">&rsaquo;</a>
 			</div> 
-			
-
 		</div>
 
+		<!-- 在建工程 -->
+		<div id="onbuilding"  class="general_set"></div>
+		<div id="selfDevice" class="general_set"></div>
+		<div id="activity" class="general_set"></div>
+		<div id="history" class="general_set"></div>
+		<div id="registerInfo" class="general_set"></div>
 	</div>
+
+
 	<div id="footer"></div>
 
-
+	<div id="back-icon"><a data-scroll class="seta" href="#nav"></a></div>
 	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.js"></script>
-	
+	<script type="text/javascript" src="./js/smooth-scroll.js"></script>
+	<script type="text/javascript">
+		smoothScroll.init();
+	</script> 
 </body>
 </html>
