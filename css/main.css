@@ -80,16 +80,16 @@ body{
 }
 #body #onbuilding #tab{
 	position: absolute;
-	margin: 0 auto;
+	margin-left: 20px;
 	padding-left: 20px;
 	padding-top: 40px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	width: 90%;
-	height: 90%;
+	height: 600px;
 }
 #body #onbuilding #tab .video_set{
-	margin: 20px 20px;
+	margin: 20px 0 20px 20px;
 	width: 33%;
 	height: 400px;
 }
@@ -97,11 +97,11 @@ body{
 	position: absolute;
 	font-family: Georgia, "Times New Roman", "Microsoft YaHei";
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
-	width: 67%;
-	right: 0;
-	top: 40%;
+	width: 40%;
+	left: 40%;
+	top: 280px;
 }
 #body #selfDevice{
 	background-color: pink;
