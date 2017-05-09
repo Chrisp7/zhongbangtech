@@ -76,11 +76,35 @@ body{
 	height: 600px;
 }
 #body #onbuilding{
-	background-color: pink;
-
+	background-color: #fff;
+}
+#body #onbuilding #tab{
+	position: absolute;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width: 90%;
+	height: 90%;
+}
+#body #onbuilding #tab .video_set{
+	margin: 20px 20px;
+	width: 33%;
+	height: 400px;
+}
+#body #onbuilding #tab p{
+	position: absolute;
+	font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	width: 67%;
+	right: 0;
+	top: 40%;
 }
 #body #selfDevice{
-	background-color: white;
+	background-color: pink;
 	
 }
 #body #activity{
