@@ -78,45 +78,46 @@ body{
 #body #onbuilding{
 	background-color: #fff;
 }
-#body #onbuilding #tab{
-	position: absolute;
-	margin-left: 20px;
+#body #tab{
+	margin: 0 auto;
 	padding-left: 20px;
 	padding-top: 40px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	width: 90%;
 	height: 600px;
+	background-color: #fafafa;
 }
-#body #onbuilding #tab .video_set{
+#body #tab .video_set{
 	margin: 20px 0 20px 20px;
 	width: 33%;
 	height: 400px;
 }
-#body #onbuilding #tab p{
-	position: absolute;
+#body #tab p{
+	display: inline;
 	font-family: Georgia, "Times New Roman", "Microsoft YaHei";
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
 	width: 40%;
-	left: 40%;
-	top: 280px;
-}
-#body #selfDevice{
-	background-color: pink;
+	text-align: center;
 	
 }
+#body #selfDevice{
+	background-color: #fff;
+	
+}
+
 #body #activity{
-	background-color: black;
+	background-color: #fff;
 	
 }
 #body #history{
-	background-color: green;
+	background-color: #fff;
 	
 }
 #body #registerInfo{
-	background-color: yellow;
+	background-color: #fff;
 	
 }
 #footer{
